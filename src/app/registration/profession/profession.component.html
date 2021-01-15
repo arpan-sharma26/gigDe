@@ -1,0 +1,59 @@
+<app-header></app-header>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div style="height: 90%" class="main1">
+        <h1 class="main"><b> I am a</b></h1>
+        <br />
+        <div>
+          <div class="buttons">
+            <button
+              mat-raised-button
+              id="btn1"
+              (click)="enableClientButton()"
+              (mouseover)="changeText = !changeText"
+              (mouseout)="changeText = !changeText"
+              [class.disabled]="!changeText"
+              [class.activeButton]="changeText"
+              class="positioning"
+            >
+              Client
+            </button>
+
+            <button
+              mat-raised-button
+              id="btn2"
+              #btn2
+              (mouseover)="changeTextFreelancer = !changeTextFreelancer"
+              (mouseout)="changeTextFreelancer = !changeTextFreelancer"
+              [class.disabled]="!changeTextFreelancer"
+              [class.activeButton]="changeTextFreelancer"
+              (click)="enableFreelanceButton()"
+              class="positioning2"
+            >
+              Freelancer
+            </button>
+          </div>
+          <div class="checkbox1"></div>
+          <div class="desc1">
+            I am agree! Please send me useful emails everyday from Gigde.
+          </div>
+          <div class="checkbox2"></div>
+          <div class="sample">
+            <div class="desc2">
+              Yes, I understand and agree to the
+              <span class="desc3">including the</span>
+              <span class="span1">GigDe Terms of Service,</span>
+              <span class="span2">User Agreement</span>
+              <span class="desc4">and</span>
+              <span class="span3">Privacy Policy.</span>
+            </div>
+          </div>
+
+          <app-footer></app-footer>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

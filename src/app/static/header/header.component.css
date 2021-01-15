@@ -1,0 +1,174 @@
+/* .logoColor {
+  color: #137ded;
+}
+
+.logo {
+  margin-left: 200%;
+  margin-top: 25%;
+  font-size: 3.3rem;
+  font-weight: 400;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+  margin-right: 17.85%;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #137ded;
+  font-size: 0.85rem;
+  margin-left: 1rem;
+  font-weight: 500;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 14px;
+}
+
+.newUser {
+  font-weight: 500;
+  margin-top: 1%;
+  font-size: 1.04rem;
+} */
+/* Making changes */
+/* @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+.logo {
+  margin-top: 14px;
+  margin-left: 283px;
+  width: 189px;
+  height: 94px;
+  display: block;
+  background: transparent;
+  opacity: 1;
+}
+
+#newUser {
+  position: absolute;
+  top: 46px;
+  left: 1395px;
+  width: 105px !important;
+  height: 32px !important;
+  font-family: source-sans-pro;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 8px;
+}
+
+#btn {
+  position: absolute;
+  top: 42px;
+  left: 1520px;
+  width: 100px;
+  height: 40px;
+  background: var(--unnamed-color-137ded) 0% 0% no-repeat padding-box;
+  background: #137ded 0% 0% no-repeat padding-box;
+  opacity: 1;
+  font-weight: lighter;
+  text-align: left;
+  font-family: source-sans-pro;
+  color: #ffffff;
+  opacity: 1;
+  padding-left: 19px;
+  padding-right: 18px;
+  text-align: center;
+} */
+
+/* .container-div {
+  position: fixed;
+} */
+
+/* .header {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  top: 0;
+  height: 80px;
+} */
+
+/* .shadow {
+  box-shadow: 0px 3px 12px #00000040;
+} */
+
+/* .logo {
+  margin-left: 10%; */
+/* padding-top: 2%; */
+/* font-family: var(--font-source-sans-pro); */
+/* font-family: SegoeUI, Segoe UI;
+  font-size: 42px;
+} */
+/* 
+.logo-blue {
+  color: var(--unnamed-color-137ded);
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-right: 10%;
+}
+
+.user-tag {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 20px;
+} */
+
+.logo {
+  position: relative;
+  top: 14px;
+  left: 283px;
+  width: 189px;
+  height: 94px;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.btn1 {
+  position: absolute;
+  top: 42px;
+  left: 1520px;
+  width: 100px;
+  height: 40px;
+  background: var(--unnamed-color-137ded) 0% 0% no-repeat padding-box;
+  background: #137ded 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.signUp {
+  position: absolute;
+  top: 49px;
+  left: 1539px;
+  width: 63px;
+  height: 25px;
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal 500 20px/28px Source Sans Pro;
+  letter-spacing: -0.2px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.newUser {
+  position: absolute;
+  top: 46px;
+  left: 1395px;
+  width: 106px;
+  height: 32px;
+  color: var(--unnamed-color-000000);
+  text-align: right;
+  font: normal normal normal 25px/32px Source Sans Pro;
+  letter-spacing: -0.25px;
+  color: #000000;
+  opacity: 1;
+}

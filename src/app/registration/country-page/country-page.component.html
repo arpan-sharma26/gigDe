@@ -1,0 +1,60 @@
+<app-header></app-header>
+
+<div class="container-div">
+  <div><h2 class="heading">Sign Up</h2></div>
+  <div><p class="sub-heading">Fill the below details</p></div>
+
+  <div
+    class="d-inline-block dropdown-container"
+    ngbDropdown
+    #myDrop="ngbDropdown"
+  >
+    <button
+      class="btn mr-2 dropdown-toggle-button"
+      id="dropdownManual"
+      ngbDropdownAnchor
+      (focus)="myDrop.open()"
+      (click)="countrySelectedFn()"
+    >
+      <p class="dropdown-text">Search your country</p>
+      <mat-icon class="drop-down-icon">expand_more</mat-icon>
+    </button>
+
+    <div ngbDropdownMenu aria-labelledby="dropdownManual">
+      <input type="text" class="dropdown-option dropdown-input" />
+      <button ngbDropdownItem class="dropdown-option">India</button>
+      <button ngbDropdownItem class="dropdown-option">Australia</button>
+      <button ngbDropdownItem class="dropdown-option">Japan</button>
+    </div>
+  </div>
+
+  <div class="password-container">
+    <div *ngIf="countrySelected" class="input-container">
+      <input type="password" placeholder="Password" class="input" />
+    </div>
+
+    <div *ngIf="countrySelected" class="input-container">
+      <input
+        #password
+        type="password"
+        placeholder="Confirm password"
+        class="input"
+      />
+    </div>
+  </div>
+
+  <div *ngIf="countrySelected" class="message-container">
+    <p>
+      <mat-icon class="message-icon" inline>error_outline</mat-icon>
+      Your password is not matched.
+    </p>
+  </div>
+
+  <div *ngIf="countrySelected" class="element">
+    <button class="btn btn-primary next-button" [routerLink]="['/profession']">
+      Next
+    </button>
+  </div>
+</div>
+
+<app-footer></app-footer>

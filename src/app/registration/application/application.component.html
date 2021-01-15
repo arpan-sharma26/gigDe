@@ -1,0 +1,173 @@
+<app-header-with-shadow></app-header-with-shadow>
+<div class="container">
+  <h1 class="header">Fill the application</h1>
+
+  <div class="section-div">
+    <div class="card-container-1">
+      <p class="section-header card-title">Your Identity</p>
+      <hr />
+
+      <div class="section">
+        <p class="section-header">Add a photo</p>
+        <div class="photo-div">
+          <div class="add-button-circle-div">
+            <input type="file" hidden />
+            <mat-icon class="plus-icon">add</mat-icon>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <p class="section-header">Write a Professional Title</p>
+        <input
+          #professionalTitle
+          type="text"
+          placeholder="eg: Product Designer or UI/UX Designer"
+          class="password-input"
+        />
+      </div>
+
+      <div class="section">
+        <form [formGroup]="editorForm" (ngSubmit)="onSubmit()">
+          <p class="section-header">About Yourself</p>
+          <quill-editor
+            #about
+            [styles]="editorStyle"
+            formControlName="editor"
+          ></quill-editor>
+        </form>
+      </div>
+
+      <div class="next-button">
+        <div class="element">
+          <button
+            class="btn btn-primary login-button"
+            [disabled]="professionalTitle.value.length === 0"
+            (click)="nextSlide()"
+          >
+            Next
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-container-2">
+      <div class="side-div"></div>
+    </div>
+  </div>
+
+  <div class="section-div">
+    <div class="card-container-1">
+      <p class="section-header card-title">Your Identity</p>
+      <hr />
+
+      <div class="section">
+        <p class="section-header">Select a category</p>
+        <div
+          class="d-inline-block dropdown-container"
+          ngbDropdown
+          #myDrop="ngbDropdown"
+        >
+          <button
+            class="btn mr-2 dropdown-toggle-button"
+            id="dropdownManual"
+            ngbDropdownAnchor
+            (focus)="myDrop.open()"
+          >
+            <p class="dropdown-text">Quality Assusrance</p>
+            <mat-icon class="drop-down-icon">expand_more</mat-icon>
+          </button>
+
+          <div ngbDropdownMenu aria-labelledby="dropdownManual">
+            <button ngbDropdownItem class="dropdown-option">Value 1</button>
+            <button ngbDropdownItem class="dropdown-option">Value 2</button>
+            <button ngbDropdownItem class="dropdown-option">Value 3</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <p class="section-header">Sub-category</p>
+        <div
+          class="sub-category"
+          (click)="onSubcategoryClicked1()"
+          [ngClass]="classFlag1 ? 'chosen-subcategory' : null"
+        >
+          <mat-icon class="check-icon">check_circle </mat-icon>
+          <mat-label>Security testing</mat-label>
+        </div>
+
+        <div
+          class="sub-category"
+          (click)="onSubcategoryClicked2()"
+          [ngClass]="classFlag2 ? 'chosen-subcategory' : null"
+        >
+          <mat-icon class="check-icon">check_circle </mat-icon>
+          <mat-label>Test Automation</mat-label>
+        </div>
+
+        <div
+          class="sub-category"
+          (click)="onSubcategoryClicked3()"
+          [ngClass]="classFlag3 ? 'chosen-subcategory' : null"
+        >
+          <mat-icon class="check-icon">check_circle </mat-icon>
+          <mat-label>Functional Testing</mat-label>
+        </div>
+
+        <div
+          class="sub-category"
+          (click)="onSubcategoryClicked4()"
+          [ngClass]="classFlag4 ? 'chosen-subcategory' : null"
+        >
+          <mat-icon class="check-icon">check_circle </mat-icon>
+          <mat-label>UI/UX Testing</mat-label>
+        </div>
+
+        <div
+          class="sub-category"
+          (click)="onSubcategoryClicked5()"
+          [ngClass]="classFlag5 ? 'chosen-subcategory' : null"
+        >
+          <mat-icon class="check-icon">check_circle </mat-icon>
+          <mat-label>Load Testing</mat-label>
+        </div>
+      </div>
+
+      <div class="section">
+        <form [formGroup]="editorForm" (ngSubmit)="onSubmit()">
+          <div class="skill-header-container">
+            <p class="section-header">Select your related skills</p>
+            <small>can select maximun 10</small>
+          </div>
+
+          <input
+            type="text"
+            placeholder="Enter Skills"
+            class="password-input"
+          />
+        </form>
+      </div>
+
+      <div class="next-button">
+        <div class="element">
+          <button class="btn btn-outline-primary login-button">Back</button>
+
+          <button
+            class="btn btn-primary login-button"
+            [disabled]="professionalTitle.value.length === 0"
+            (click)="nextSlide()"
+          >
+            Next
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-container-2">
+      <div class="side-div"></div>
+    </div>
+  </div>
+</div>
+
+<!-- *ngIf="slide === 1 ? true : false"  -->

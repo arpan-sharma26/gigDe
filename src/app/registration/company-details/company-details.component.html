@@ -1,0 +1,68 @@
+<div class="container">
+  <div>
+    <h2>Tell us about your Company</h2>
+    <h3 class="subHeading">
+      It will help us to add more values to your business.
+    </h3>
+  </div>
+
+  <!-- 1st input -->
+  <div style="width: 35%" class="col">
+    <div class="mb-3">
+      <input
+        type="text"
+        class="form-control inputs"
+        aria-label="Default"
+        placeholder="Agency Name"
+        aria-describedby="inputGroup-sizing-default"
+      />
+    </div>
+  </div>
+
+  <div
+    class="d-inline-block dropdown-container"
+    ngbDropdown
+    #myDrop="ngbDropdown"
+  >
+    <button
+      class="btn mr-2 dropdown-toggle-button"
+      id="dropdownManual"
+      ngbDropdownAnchor
+      (focus)="myDrop.open()"
+    >
+      <mat-icon class="drop-down-icon">expand_more</mat-icon>
+    </button>
+
+    <div ngbDropdownMenu class="dropdown-menu" aria-labelledby="dropdownManual">
+      <button ngbDropdownItem class="dropdown-option">+91</button>
+      <button ngbDropdownItem class="dropdown-option">+92</button>
+      <button ngbDropdownItem class="dropdown-option">+99</button>
+    </div>
+  </div>
+
+  <div style="width: 24%">
+    <div class="mb-3">
+      <input
+        style="margin-left: 16%; position: relative; bottom: 37px"
+        type="text"
+        class="form-control inputs"
+        aria-label="Default"
+        placeholder="10 Digit Number"
+        aria-describedby="inputGroup-sizing-default"
+      />
+    </div>
+  </div>
+
+  <div class="row mb-5">
+    <div class="col-6 pr-4">
+      <div class="element">
+        <button class="btn btn-outline-primary next-button">Skip</button>
+      </div>
+    </div>
+    <div class="col-6 pl-4">
+      <div class="element">
+        <button class="btn btn-primary next-button">Next</button>
+      </div>
+    </div>
+  </div>
+</div>

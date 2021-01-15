@@ -1,0 +1,82 @@
+/* .logoColor {
+  color: #137ded;
+}
+
+.logo {
+  margin-left: 430%;
+  margin-top: 25%;
+  font-size: 3rem;
+  font-weight: 400;
+  padding-bottom: 15%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 1px 5px 5px lightgray;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.6%;
+  margin-right: 18%;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #137ded;
+  font-size: 0.85rem;
+  margin-left: 1rem;
+  margin-top: 4%;
+  font-weight: 500;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.newUser {
+  font-weight: 500;
+  margin-top: 1.8%;
+  font-size: 1.15rem;
+} */
+
+.header {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  top: 0;
+  height: 80px;
+}
+
+.shadow {
+  box-shadow: 0px 3px 12px #00000040;
+}
+
+.logo {
+  margin-left: 10%;
+  /* padding-top: 2%; */
+  /* font-family: var(--font-source-sans-pro); */
+  font-family: SegoeUI, Segoe UI;
+  font-size: 42px;
+}
+
+.logo-blue {
+  color: var(--unnamed-color-137ded);
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-right: 10%;
+}
+
+.user-tag {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 20px;
+}

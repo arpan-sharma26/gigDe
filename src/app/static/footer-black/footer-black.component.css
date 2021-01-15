@@ -1,0 +1,51 @@
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+.container-fluid {
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  padding-top: 5%;
+  left: 0;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+.logo {
+  font-size: 3rem;
+}
+
+.line {
+  margin-top: 4%;
+  background-color: #525252;
+  margin-left: 1%;
+}
+
+.footer-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.titles {
+  color: #afafaf;
+}
+
+.fa-twitter {
+  font-size: xx-large;
+  margin-right: 25px;
+}
+
+.fa-facebook-f {
+  font-size: xx-large;
+  margin-right: 25px;
+}
+
+.fa-linkedin-in {
+  font-size: xx-large;
+}

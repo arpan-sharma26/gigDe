@@ -1,0 +1,131 @@
+/* .footer {
+  position: relative;
+  top: 90%;
+  left: 60%;
+  width: 40%;
+} */
+
+/* .footerGroup {
+  position: absolute;
+  padding-top: 800px;
+  padding-bottom: 16px;
+  left: 1116px;
+  width: 753px;
+  height: 23px;
+  opacity: 1;
+  font-family: source-sans-pro;
+  font-weight: medium;
+  font-size: 18px;
+  color: #31353c;
+  word-spacing: 23;
+}
+
+.help {
+  margin-right: 11px;
+}
+
+.policy {
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+.terms {
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+.copyright {
+  margin-left: 1%;
+  /* color: var(--blue);
+} */
+
+.element1 {
+  position: absolute;
+  top: 881px;
+  left: 1116px;
+  width: 35px;
+  height: 23px;
+  text-align: right;
+  font: normal normal normal 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #31353c;
+  opacity: 1;
+}
+
+.element2 {
+  position: absolute;
+  top: 881px;
+  left: 1184px;
+  width: 104px;
+  height: 23px;
+  text-align: right;
+  font: normal normal normal 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #31353c;
+  opacity: 1;
+}
+
+.element3 {
+  position: absolute;
+  top: 881px;
+  left: 1325px;
+  width: 165px;
+  height: 23px;
+  text-align: right;
+  font: normal normal normal 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #31353c;
+  opacity: 1;
+}
+
+.element4 {
+  position: absolute;
+  top: 881px;
+  left: 1515px;
+  width: 354px;
+  height: 23px;
+  text-align: left;
+  font: normal normal normal 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #31353c;
+  opacity: 1;
+}
+
+.line1 {
+  position: absolute;
+  top: 881px;
+  left: 1162px;
+  width: 4px;
+  height: 23px;
+  text-align: right;
+  font: normal normal normal 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #31353c;
+  opacity: 1;
+}
+
+.line2 {
+  position: absolute;
+  top: 881px;
+  left: 1299px;
+  width: 4px;
+  height: 23px;
+  text-align: right;
+  font: normal normal normal 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #31353c;
+  opacity: 1;
+}
+
+.line3 {
+  position: absolute;
+  top: 881px;
+  left: 1500px;
+  width: 4px;
+  height: 23px;
+  text-align: right;
+  font: normal normal normal 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #31353c;
+  opacity: 1;
+}

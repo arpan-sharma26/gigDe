@@ -1,0 +1,102 @@
+.container-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 40%;
+  top: 25%;
+  left: 30%;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.sub-heading {
+  color: var(--unnamed-color-afafaf);
+  font-size: smaller;
+  letter-spacing: -0.25px;
+  line-height: 80%;
+  margin-bottom: 15px;
+}
+
+.dropdown-container {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  outline: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07);
+}
+
+.dropdown-toggle-button {
+  background: white;
+  color: var(--unnamed-color-137ded);
+  width: 100%;
+  text-align: left;
+  box-shadow: none;
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown-text {
+  margin-bottom: 0px;
+  color: var(--unnamed-color-000000);
+}
+
+.dropdown-option {
+  width: 350px;
+  outline: none;
+}
+
+.dropdown-input {
+  outline: none;
+  padding: 5px;
+  border: 1px solid var(--unnamed-color-137ded);
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.drop-down-icon {
+  color: var(--unnamed-color-137ded);
+  margin-left: -30px;
+  cursor: pointer;
+}
+
+.input-container {
+  display: flex;
+  position: relative;
+  width: 350px;
+}
+
+.input {
+  width: 100%;
+  outline: none;
+  padding: 10px;
+}
+
+.password-container {
+  margin-top: 10px;
+}
+
+.next-button {
+  margin-top: 50px;
+  width: 200px;
+}
+
+.message-container {
+  width: 350px;
+  color: var(--unnamed-color-ff0000);
+  font-size: small;
+}
+
+.message-icon {
+  margin-top: 10px;
+}

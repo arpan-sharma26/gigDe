@@ -1,0 +1,264 @@
+/* .main {
+  font-weight: 1000;
+  text-align: center;
+  height: 40%;
+  margin-top: 5%;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.activeButton {
+  background-color: #137ded;
+  color: white;
+}
+
+.conditions {
+  justify-content: left;
+  margin-left: 35%;
+  color: #7a7a7a;
+}
+
+.example-h2 {
+  margin: 10px;
+}
+
+.example-section {
+  display: flex;
+  height: 60px;
+  width: 10px;
+}
+
+.shadow {
+  box-shadow: 1px 1px 1px #e1e1e1;
+}
+
+::ng-deep .mat-checkbox-checked .mat-checkbox-background {
+  background-color: #137ded !important;
+}
+
+.disabled {
+  background-color: #f2f2f2;
+  color: #d2d2d2;
+}
+
+.positioning {
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-right: 5%;
+}
+
+.buttons {
+  margin-top: -10%;
+  margin-left: 7%;
+  margin-bottom: 2%;
+}
+
+.span {
+  color: #137ded;
+}
+
+.activeStartedButton {
+  background-color: #137ded;
+  color: white;
+  margin-left: 38%;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.example-additional-selection {
+  opacity: 0.75;
+  font-size: 0.75em;
+}
+
+::ng-deep .mat-form-field-flex {
+  background-color: blue !important;
+  height: 1px;
+  color: white;
+  margin-left: 210%;
+  z-index: -1 !important;
+}
+
+::ng-deep .mat-form-field-underline {
+  display: none;
+}
+
+.adjust {
+} */
+
+.iAm {
+  position: absolute;
+  top: 261px;
+  left: 888px;
+  width: 144px;
+  height: 69px;
+  color: var(--unnamed-color-000000);
+  text-align: center;
+  font: normal normal bold 55px/69px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.positioning1 {
+  position: absolute;
+  top: 355px;
+  left: 710px;
+  width: 220px;
+  height: 50px;
+  opacity: 1;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.positioning2 {
+  position: absolute;
+  top: 355px;
+  left: 991px;
+  width: 220px;
+  height: 50px;
+  opacity: 1;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.checkbox1 {
+  position: absolute;
+  top: 440px;
+  left: 710px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--unnamed-color-707070);
+  background: transparent url("../../../assets/images/Rectangle 11.svg") 0% 0%
+    no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 3px;
+  opacity: 1;
+}
+.desc1 {
+  position: absolute;
+  top: 440px;
+  left: 750px;
+  width: 452px;
+  height: 65px;
+  text-align: left;
+  font: normal normal normal 18px/25px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #616161;
+  opacity: 1;
+}
+
+.checkbox2 {
+  position: absolute;
+  top: 520px;
+  left: 710px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--unnamed-color-707070);
+  background: transparent url("../../../assets/images/Rectangle 232.svg") 0% 0%
+    no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 3px;
+  opacity: 1;
+}
+
+.desc2 {
+  position: absolute;
+  top: 520px;
+  left: 750px;
+  width: 461px;
+  height: 56px;
+  text-align: left;
+  font: normal normal normal 18px/25px Source Sans Pro;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.span1 {
+  position: absolute;
+  top: 0px;
+  left: 257px;
+  width: 176px;
+  height: 23px;
+  color: var(--unnamed-color-137ded);
+  text-align: left;
+  font: normal normal normal 18px/25px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #137ded;
+}
+
+.span2 {
+  position: absolute;
+  top: 25px;
+  left: 102px;
+  width: 121px;
+  height: 23px;
+  color: var(--unnamed-color-137ded);
+  text-align: left;
+  font: normal normal normal 18px/25px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #137ded;
+}
+
+.span3 {
+  position: absolute;
+  top: 25px;
+  left: 259px;
+  width: 117px;
+  height: 23px;
+  color: var(--unnamed-color-137ded);
+  text-align: left;
+  font: normal normal normal 18px/25px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #137ded;
+}
+
+.sample {
+  top: 0px;
+  left: 0px;
+  width: 257px;
+  height: 23px;
+  text-align: left;
+  font: normal normal normal 18px/25px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #616161;
+}
+
+.desc3 {
+  position: absolute;
+  top: 25px;
+  left: 0px;
+  width: 102px;
+  height: 23px;
+  text-align: left;
+  font: normal normal normal 18px/25px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #616161;
+}
+
+.desc4 {
+  position: absolute;
+  top: 25px;
+  left: 226px;
+  width: 33px;
+  height: 23px;
+  text-align: left;
+  font: normal normal normal 18px/25px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #616161;
+}
+
+.getStarted {
+  position: absolute;
+  top: 599px;
+  left: 806px;
+  width: 308px;
+  height: 60px;
+  background: transparent url("../../../assets/images/Group 178.svg") 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+}

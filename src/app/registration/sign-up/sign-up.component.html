@@ -1,0 +1,37 @@
+<div class="heading">Sign Up</div>
+<div><p class="sub-heading">Fill the below details</p></div>
+
+<input type="email" placeholder="Email Address" class="email-input" />
+<button
+  (click)="emailProvidedFn()"
+  class="mat-icon-button button"
+  [hidden]="emailProvided"
+>
+  <mat-icon class="icon"> </mat-icon>
+</button>
+
+<div *ngIf="messageRead" class="password-container">
+  <input
+    #password
+    type="password"
+    placeholder="Password"
+    class="password-input"
+  />
+</div>
+
+<!-- {{ emailProvided }} -->
+
+<div *ngIf="emailProvided" class="message-container">
+  <p>
+    You wanted to continue with this email address? or you can use your work
+    email address also.
+  </p>
+
+  <mat-icon class="message-icon" inline>error_outline</mat-icon>
+</div>
+
+<div *ngIf="emailProvided" class="element">
+  <button class="btn btn-primary login-button" (click)="messageReadFn()">
+    Continue
+  </button>
+</div>

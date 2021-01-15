@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  /* font-family: Roboto, "Helvetica Neue", sans-serif; */
+  font-family: "Source Sans Pro", sans-serif;
+  letter-spacing: 0;
+}
+
+/* Colors */
+
+:root {
+  /* Colors: */
+  --unnamed-color-d1d1d1: #d1d1d1;
+  --unnamed-color-ffffff: #ffffff;
+  --unnamed-color-000000: #000000;
+  --unnamed-color-8f8f8f: #8f8f8f;
+  --unnamed-color-f8f8f8: #f8f8f8;
+  --unnamed-color-137ded: #137ded;
+  --unnamed-color-badafd: #badafd;
+  --unnamed-color-f6f6f6: #f6f6f6;
+  --unnamed-color-fafafa: #fafafa;
+  --unnamed-color-6f6f6f: #6f6f6f;
+  --unnamed-color-ff0000: #ff0000;
+  --unnamed-color-fcfcfc: #fcfcfc;
+  --unnamed-color-f3f3f3: #f3f3f3;
+  --unnamed-color-707070: #707070;
+  --unnamed-color-e7f1fd: #e7f1fd;
+  --unnamed-color-cfe6ff: #cfe6ff;
+  --unnamed-color-afafaf: #afafaf;
+  --unnamed-color-e7e7e7: #e7e7e7;
+  --font-source-sans-pro: "Source Sans Pro", sans-serif;
+}

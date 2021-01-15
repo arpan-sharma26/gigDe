@@ -1,0 +1,27 @@
+<app-header-with-shadow></app-header-with-shadow>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col">
+      <h1 class="title extra-bold">
+        Please Enter the OTP to Verify your Account
+      </h1>
+      <h3 class="subTitle subHeading">
+        It will help us to add more values to your business.
+      </h3>
+
+      <div class="otpColumns">
+        <!-- <input id="partitioned" type="text" maxlength="4" /> -->
+        <!-- FOR OTP - (onInputChange)="onOtpChange($event)" -->
+        <ng-otp-input [config]="{ length: 6 }"></ng-otp-input>
+      </div>
+
+      <button
+        class="btn btn-primary next-button next-button"
+        [routerLink]="['/application']"
+      >
+        Valiadte
+      </button>
+    </div>
+  </div>
+</div>
